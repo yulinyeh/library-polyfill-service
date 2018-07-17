@@ -6,7 +6,8 @@ require('polyfill-service').getPolyfillString({
     'default': {},
     'Array.prototype.find': {},
     'String.prototype.repeat': {},
-    'Object.entries': {}
+    'Object.entries': {},
+    'Object.assign': {}
   }
 }).then(function(_bundleString) {
   fs.writeFile('./polyfill.min.js', _bundleString, _error => {
