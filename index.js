@@ -6,6 +6,7 @@ require('polyfill-service').getPolyfillString({
     'String.prototype.repeat': {},
     'Number.isNaN': {},
     'Array.prototype.find': {},
+    'Array.from': {},
     'Object.entries': {},
     'Object.assign': {},
     'Math.trunc': {},

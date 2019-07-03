@@ -4,7 +4,7 @@
   "description": "輸出 IE11 缺少的 javascript 函式。",
   "main": "index.js",
   "dependencies": {
-    "polyfill-service": "latest"
+    "polyfill-service": "3.25.3"
   },
   "devDependencies": {},
   "author": "",
